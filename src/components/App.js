@@ -11,9 +11,9 @@ class App extends React.Component {
             <Router>
                 <AppShell>
                     <div>
-                        <Route exact path="/" Component={Home} />
-                        <Route exact path="/texts" Component={Texts} />
-                        <Route exact path="/words" Component={Words} />
+                        <Route exact path="/" component={Home} />
+                        <Route exact path="/texts" component={Texts} />
+                        <Route exact path="/words" component={Words} />
                     </div>
                 </AppShell>
             </Router>
